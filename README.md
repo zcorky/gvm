@@ -40,5 +40,11 @@ Example:
   zgvm current
 ```
 
+## FAQ
+* 1. 问题：`zgvm: command not found`
+  * 解决方案 1：`执行 source 重写加载环境变量`
+  * 解决方案 2：`重启你的 terminal`
+  * 解决方案 3：执行 `zmicro register` 重写注册环境，然后重新走解决方案 1 或 2
+
 ## License
 ZMicro Design is released under the [MIT License](./LICENSE).
