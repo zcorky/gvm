@@ -55,10 +55,10 @@ jobs:
         with:
           fetch-depth: '0'
 
-      - name: Install zmicro
+      - name: Install
         run: ./install
 
-      - name: Run test cases
+      - name: Show Version
         run: zgvm -v
 
      
