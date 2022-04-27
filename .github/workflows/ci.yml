@@ -59,6 +59,9 @@ jobs:
         run: ./install
 
       - name: Show Version
-        run: zgvm -v
+        run: |
+          zmicro gvm -v
+          export PATH=$(zmicro bin path):$PATH
+          zgvm -v
 
      
