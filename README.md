@@ -9,35 +9,36 @@
 
 ```bash
 # CURL
-curl -o- https://raw.githubusercontent.com/zcorky/zgvm/master/install | bash
+curl -o- https://raw.githubusercontent.com/zcorky/gvm/master/install | bash
 
 # WGET
-wget -qO- https://raw.githubusercontent.com/zcorky/zgvm/master/install | bash
+wget -qO- https://raw.githubusercontent.com/zcorky/gvm/master/install | bash
 ```
 
 ## Usage
 
 ```markdown
-Go Version Manager (v1.0.6)
+Go Version Manager (v1.3.7)
 
 Go Version Manager is a tool for managing multiple Go versions.
 
 Usage:
-  zgvm install <version>   - Install Go version
-  zgvm use <version>       - Use Go version
-  zgvm remove <version>    - Remove Go version
-  zgvm ls                  - List all Go versions
-  zgvm ls-remote           - Show current Go version
-  zgvm current             - Show current Go version
-  zgvm help                - Show help
+  gvm install <version>   - Install Go version
+  gvm use <version>       - Use Go version
+  gvm remove <version>    - Remove Go version
+  gvm ls                  - List the Go versions installed
+  gvm ls-remote           - List all Go versions from remote
+  gvm current             - Show current Go version
+  gvm exec                - Enter new shell with go version for tmp
+  gvm help                - Show help
 
 Example:
-  zgvm install v1.18
-  zgvm use v1.18
-  zgvm remove v1.18
-  zgvm ls
-  zgvm ls-remote
-  zgvm current
+  gvm install v1.18
+  gvm use v1.18
+  gvm remove v1.18
+  gvm ls
+  gvm ls-remote
+  gvm current
 ```
 
 ## FAQ
