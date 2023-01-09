@@ -62,6 +62,6 @@ jobs:
         run: |
           zmicro gvm -v
           export PATH=$(zmicro bin path):$PATH
-          zgvm -v
+          gvm -v
 
      
